@@ -1,0 +1,14 @@
+create database Dab1;
+create table student(
+	ID int primary key,
+    S_Name varchar(30),
+    Department text,
+    Addresss varchar(30),
+    cgpa float);
+insert into student values
+(1,"Mahi","Mech","Rasipuram",8.8),
+(2,"Mugu","BTech","ElachiPalayam",6.5),
+(3,"Loki","Robotics","Chennai",7.8),
+(4,"Ravi","BioMedical","Aathur",7.9),
+(5,"Karthick","Civil","Ooty",7.0);
+select*from student
